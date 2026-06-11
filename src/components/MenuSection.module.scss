@@ -1,0 +1,82 @@
+@use '../styles/variables' as *;
+
+.menu {
+  background: $color-cream-soft;
+  padding-top: clamp(7rem, 14vw, 10rem);
+}
+.head {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 4rem;
+  h1 { color: $color-moss-deep; }
+  p { font-size: 1.05rem; }
+}
+.cats {
+  display: grid;
+  gap: 2.5rem;
+  @media (min-width: $bp-lg) { grid-template-columns: repeat(3, 1fr); }
+}
+.card {
+  background: $color-cream;
+  border-radius: $radius-md;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 50px -30px rgba(0,0,0,.25);
+}
+.cover {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  img { width: 100%; height: 100%; object-fit: cover; }
+  h2 {
+    position: absolute; left: 1.5rem; bottom: 1.25rem; right: 1.5rem;
+    color: $color-cream-soft;
+    font-size: 1.6rem;
+    margin: 0;
+    text-shadow: 0 2px 16px rgba(0,0,0,.5);
+  }
+  &::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.65), transparent 60%);
+  }
+}
+.items {
+  list-style: none;
+  margin: 0;
+  padding: 1.75rem;
+  display: grid;
+  gap: 1.5rem;
+
+  li p {
+    margin: .35rem 0 0;
+    font-size: .9rem;
+    color: $fg-dim;
+    line-height: 1.5;
+  }
+}
+.row {
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+}
+.name {
+  font-family: $font-serif;
+  font-size: 1.15rem;
+  color: $color-ink;
+}
+.price {
+  font-family: $font-serif;
+  font-size: 1rem;
+  color: $accent;
+  white-space: nowrap;
+}
+.dots {
+  flex: 1;
+  height: 1px;
+  background-image: radial-gradient(circle, rgba($color-ink, .3) 1px, transparent 1.5px);
+  background-size: 6px 6px;
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  margin: 0 .25rem;
+}

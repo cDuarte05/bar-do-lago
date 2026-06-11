@@ -1,0 +1,49 @@
+{
+  "nav": { "home": "Inicio", "menu": "Menú", "contact": "Contacto", "reserve": "Reservar Mesa" },
+  "hero": {
+    "eyebrow": "Bar do Lago",
+    "title": "Vive el Espíritu del Lago",
+    "subtitle": "Un deck rústico sobre el agua donde el atardecer se encuentra con bocados artesanales, tragos de autor y buena compañía.",
+    "scroll": "Desliza para descubrir"
+  },
+  "story": {
+    "eyebrow": "Nuestra historia",
+    "title": "Acogedor junto al lago",
+    "p1": "Nacido entre tablones gastados y el reflejo dorado del lago, Bar do Lago es un refugio para pausas sinceras. Cada plato lleva el sabor de la tierra; cada trago, la calma del agua.",
+    "p2": "Por más de una década recibimos amigos, viajeros y vecinos como familia — siempre con fuego suave, música baja y vista privilegiada."
+  },
+  "gallery": { "eyebrow": "Entra", "title": "Un vistazo a la atmósfera" },
+  "menu": {
+    "eyebrow": "Menú",
+    "title": "Sabores de la orilla",
+    "intro": "Recetas inspiradas en el lago y sus estaciones. Ingredientes locales, manos atentas.",
+    "categories": {
+      "drinks": "Tragos del Lago",
+      "appetizers": "Entrantes de la Tierra",
+      "mains": "Platos Principales"
+    },
+    "items": {
+      "d1": { "n": "Brisa del Lago", "d": "Gin, hierba limón, miel silvestre, tónica seca." },
+      "d2": { "n": "Atardecer", "d": "Mezcal, maracuyá fresco, pimienta rosa." },
+      "d3": { "n": "Reflejo", "d": "Cachaça añejada, menta, reducción de jabuticaba." },
+      "a1": { "n": "Tabla Caiçara", "d": "Quesos curados, embutidos artesanales, panes rústicos." },
+      "a2": { "n": "Empanadas de Piñón", "d": "Masa crocante con piñón y queso de la sierra." },
+      "a3": { "n": "Croquetas de Tilapia", "d": "Tilapia del lago, hierbas frescas, mayonesa ahumada." },
+      "m1": { "n": "Filete del Pescador", "d": "Tilapia a la parrilla, puré de chirivía, alcaparras." },
+      "m2": { "n": "Costilla a las Brasas", "d": "Doce horas a fuego lento, polenta cremosa, salsa verde." },
+      "m3": { "n": "Risotto de Hongos", "d": "Funghi, parmesano añejo, reducción de vino tinto." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Visítanos",
+    "title": "Nos encuentras en el deck",
+    "address": "Dirección",
+    "addressLine": "Camino de la Orilla 142 — Lago Sereno",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "hours": "Horario",
+    "hoursLine": "Mar–Dom · 17h a 00h",
+    "social": "Redes"
+  },
+  "footer": { "rights": "Todos los derechos reservados." }
+}

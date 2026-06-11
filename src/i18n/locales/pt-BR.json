@@ -1,0 +1,50 @@
+{
+  "nav": { "home": "Início", "menu": "Cardápio", "contact": "Contato", "reserve": "Reservar Mesa" },
+  "hero": {
+    "eyebrow": "Bar do Lago",
+    "title": "Venha conhecer um ",
+    "subtitle": "Um restaurante no maior parque urbano de Curitiba, onde a natureza e a gastronomia se encontram para criar momentos inesquecíveis.",
+    "scroll": "Role para descobrir"
+  },
+  "story": {
+    "eyebrow": "Nossa história",
+    "title": "Aconchego à beira do lago",
+    "p1": "Nascido entre tábuas de madeira e o reflexo dourado do lago, o Bar do Lago é um refúgio para quem busca pausas sinceras. Cada prato carrega o sabor da terra; cada drink, a calma das águas.",
+    "p2": "Há mais de uma década recebendo amigos, viajantes e moradores como família — sempre com fogo brando, música baixa e vista privilegiada."
+  },
+  "gallery": { "eyebrow": "Visite", "title": "Um pedaço da nossa atmosfera" },
+  "menu": {
+    "eyebrow": "Cardápio",
+    "title": "Sabores da margem",
+    "intro": "Receitas inspiradas no lago e suas estações. Ingredientes locais, mãos atentas.",
+    "categories": {
+      "drinks": "Drinks do Lago",
+      "appetizers": "Petiscos da Terra",
+      "mains": "Pratos Principais"
+    },
+    "items": {
+      "d1": { "n": "Brisa do Lago", "d": "Gin, capim-limão, mel silvestre e tônica seca." },
+      "d2": { "n": "Pôr-do-Sol", "d": "Mezcal, maracujá fresco, pimenta rosa." },
+      "d3": { "n": "Reflexo", "d": "Cachaça envelhecida, hortelã, redução de jabuticaba." },
+      "a1": { "n": "Tábua do Caiçara", "d": "Queijos curados, embutidos artesanais, pães rústicos." },
+      "a2": { "n": "Pastéis de Pinhão", "d": "Massa crocante recheada com pinhão e queijo da serra." },
+      "a3": { "n": "Bolinho de Tilápia", "d": "Tilápia do lago, ervas frescas, maionese defumada." },
+      "m1": { "n": "Filé do Pescador", "d": "Tilápia grelhada, purê de mandioquinha, alcaparras." },
+      "m2": { "n": "Costela na Brasa", "d": "Doze horas de fogo lento, polenta cremosa, salsa verde." },
+      "m3": { "n": "Risoto de Cogumelos", "d": "Funghi, parmesão envelhecido, redução de vinho tinto." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Visite-nos",
+    "title": "Encontre-nos no Parque Barigui - CWB",
+    "address": "Endereço",
+    "addressLine": "Av. Cândido Hartmann - Santo Inácio Parque Barigui, Curitiba-PR",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "hours": "Horário",
+    "hoursLine": "Ter–Dom · 17h às 00h",
+    "social": "Redes sociais"
+  },
+  "footer": { "rights": "Todos os direitos reservados.",
+              "credit": "Feito por Henrique Duarte"}
+}

@@ -1,0 +1,49 @@
+{
+  "nav": { "home": "Home", "menu": "Menu", "contact": "Contact", "reserve": "Make a Reservation" },
+  "hero": {
+    "eyebrow": "Bar do Lago",
+    "title": "Experience the Lake's Spirit",
+    "subtitle": "A rustic deck on the water where sunsets meet handcrafted bites, signature drinks, and warm company.",
+    "scroll": "Scroll to discover"
+  },
+  "story": {
+    "eyebrow": "Our story",
+    "title": "Cozy by the lake",
+    "p1": "Born between weathered planks and the golden mirror of the lake, Bar do Lago is a refuge for honest pauses. Every plate carries the taste of the land; every drink, the calm of the water.",
+    "p2": "For over a decade we've welcomed friends, travelers and locals like family — always with low flames, low music, and a privileged view."
+  },
+  "gallery": { "eyebrow": "Come in", "title": "A glimpse of the atmosphere" },
+  "menu": {
+    "eyebrow": "Menu",
+    "title": "Flavors of the shore",
+    "intro": "Recipes inspired by the lake and its seasons. Local ingredients, attentive hands.",
+    "categories": {
+      "drinks": "Drinks of the Lake",
+      "appetizers": "Land Appetizers",
+      "mains": "Main Courses"
+    },
+    "items": {
+      "d1": { "n": "Lake Breeze", "d": "Gin, lemongrass, wild honey, dry tonic." },
+      "d2": { "n": "Sundown", "d": "Mezcal, fresh passionfruit, pink pepper." },
+      "d3": { "n": "Reflection", "d": "Aged cachaça, mint, jabuticaba reduction." },
+      "a1": { "n": "Caiçara Board", "d": "Cured cheeses, artisan charcuterie, rustic bread." },
+      "a2": { "n": "Pine Nut Pastels", "d": "Crisp dough filled with pine nuts and mountain cheese." },
+      "a3": { "n": "Tilapia Croquettes", "d": "Lake tilapia, fresh herbs, smoked aioli." },
+      "m1": { "n": "Fisherman's Fillet", "d": "Grilled tilapia, parsnip purée, capers." },
+      "m2": { "n": "Embers Short Rib", "d": "Twelve hours over low fire, creamy polenta, salsa verde." },
+      "m3": { "n": "Mushroom Risotto", "d": "Funghi, aged parmesan, red wine reduction." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Visit us",
+    "title": "Find us on the deck",
+    "address": "Address",
+    "addressLine": "142 Shore Road — Serene Lake",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours",
+    "hoursLine": "Tue–Sun · 5pm to midnight",
+    "social": "Social"
+  },
+  "footer": { "rights": "All rights reserved." }
+}

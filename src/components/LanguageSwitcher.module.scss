@@ -1,0 +1,45 @@
+@use '../styles/variables' as *;
+
+.wrap { position: relative; }
+
+.trigger {
+  font-size: .72rem;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: inherit;
+  padding: .5rem .75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-weight: 500;
+  &:hover { color: $accent-soft; }
+}
+
+.caret { font-size: .6rem; opacity: .7; }
+
+.menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin: .25rem 0 0;
+  padding: .35rem 0;
+  list-style: none;
+  background: $color-cream-soft;
+  color: $color-ink;
+  border-radius: $radius-sm;
+  box-shadow: 0 12px 30px rgba(0,0,0,.18);
+  min-width: 90px;
+  z-index: 60;
+
+  button {
+    width: 100%;
+    text-align: left;
+    padding: .55rem 1rem;
+    font-size: .72rem;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    color: $color-ink;
+    &:hover { background: rgba($color-moss, .1); }
+  }
+  .active { color: $accent; font-weight: 600; }
+}
