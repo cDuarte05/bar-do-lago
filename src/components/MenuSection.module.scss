@@ -4,79 +4,163 @@
   background: $color-cream-soft;
   padding-top: clamp(7rem, 14vw, 10rem);
 }
+
 .head {
   text-align: center;
   max-width: 640px;
-  margin: 0 auto 4rem;
+  margin: 0 auto 3rem;
   h1 { color: $color-moss-deep; }
   p { font-size: 1.05rem; }
 }
-.cats {
-  display: grid;
-  gap: 2.5rem;
-  @media (min-width: $bp-lg) { grid-template-columns: repeat(3, 1fr); }
+
+/* ── Tab bar ── */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
 }
-.card {
+
+.tab {
+  padding: .55rem 1.2rem;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-family: $font-sans;
+  font-weight: 500;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  border: 1.5px solid rgba($color-moss, .25);
+  color: $color-muted;
+  background: transparent;
+  cursor: pointer;
+  transition: all .2s ease;
+
+  &:hover {
+    border-color: $accent-soft;
+    color: $accent;
+  }
+}
+
+.tabActive {
+  background: $accent;
+  border-color: $accent;
+  color: $color-cream-soft !important;
+}
+
+/* ── Panel ── */
+.panel {
   background: $color-cream;
   border-radius: $radius-md;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 20px 50px -30px rgba(0,0,0,.25);
+  box-shadow: 0 20px 50px -30px rgba(0,0,0,.2);
+  max-width: 900px;
+  margin: 0 auto;
 }
-.cover {
+
+.panelCover {
   position: relative;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 6;
   overflow: hidden;
-  img { width: 100%; height: 100%; object-fit: cover; }
-  h2 {
-    position: absolute; left: 1.5rem; bottom: 1.25rem; right: 1.5rem;
-    color: $color-cream-soft;
-    font-size: 1.6rem;
-    margin: 0;
-    text-shadow: 0 2px 16px rgba(0,0,0,.5);
+
+  img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center 40%;
   }
+
+  h2 {
+    position: absolute;
+    left: 2rem; bottom: 1.5rem; right: 2rem;
+    color: $color-cream-soft;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    margin: 0;
+    text-shadow: 0 2px 16px rgba(0,0,0,.6);
+  }
+
   &::after {
-    content: ''; position: absolute; inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,.65), transparent 60%);
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.7), transparent 60%);
   }
 }
+
+/* ── Items list ── */
 .items {
   list-style: none;
   margin: 0;
-  padding: 1.75rem;
+  padding: 2rem 2rem 1.5rem;
   display: grid;
-  gap: 1.5rem;
+  gap: 1.25rem;
+
+  @media (min-width: $bp-md) {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 3rem;
+  }
 
   li p {
-    margin: .35rem 0 0;
-    font-size: .9rem;
+    margin: .25rem 0 0;
+    font-size: .85rem;
     color: $fg-dim;
-    line-height: 1.5;
+    line-height: 1.45;
   }
 }
+
 .row {
   display: flex;
   align-items: baseline;
-  gap: .6rem;
+  gap: .5rem;
 }
+
+.code {
+  font-size: .7rem;
+  color: $color-muted;
+  font-family: $font-sans;
+  min-width: 2rem;
+  opacity: .6;
+}
+
 .name {
   font-family: $font-serif;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: $color-ink;
+  flex: 1;
+  min-width: 0;
 }
+
 .price {
   font-family: $font-serif;
-  font-size: 1rem;
+  font-size: .95rem;
   color: $accent;
   white-space: nowrap;
 }
+
 .dots {
-  flex: 1;
+  flex-shrink: 0;
+  width: 3rem;
   height: 1px;
-  background-image: radial-gradient(circle, rgba($color-ink, .3) 1px, transparent 1.5px);
+  background-image: radial-gradient(circle, rgba($color-ink, .25) 1px, transparent 1.5px);
   background-size: 6px 6px;
   background-repeat: repeat-x;
   background-position: 0 50%;
-  margin: 0 .25rem;
+}
+
+/* ── Notes ── */
+.note {
+  margin: 0 2rem 1.5rem;
+  padding: 1rem 1.25rem;
+  background: rgba($color-moss, .06);
+  border-left: 3px solid $accent-soft;
+  border-radius: 0 $radius-sm $radius-sm 0;
+  font-size: .85rem;
+  color: $color-muted;
+  line-height: 1.6;
+}
+
+.disclaimer {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: .8rem;
+  color: $color-muted;
+  opacity: .7;
 }

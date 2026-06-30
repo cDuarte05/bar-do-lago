@@ -1,5 +1,10 @@
 {
-  "nav": { "home": "Home", "menu": "Menu", "contact": "Contact", "reserve": "Make a Reservation" },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "contact": "Contact",
+    "reserve": "Make a Reservation"
+  },
   "hero": {
     "eyebrow": "Bar do Lago",
     "title": "Experience the Lake's Spirit",
@@ -12,38 +17,682 @@
     "p1": "Born between weathered planks and the golden mirror of the lake, Bar do Lago is a refuge for honest pauses. Every plate carries the taste of the land; every drink, the calm of the water.",
     "p2": "For over a decade we've welcomed friends, travelers and locals like family — always with low flames, low music, and a privileged view."
   },
-  "gallery": { "eyebrow": "Come in", "title": "A glimpse of the atmosphere" },
-  "menu": {
-    "eyebrow": "Menu",
-    "title": "Flavors of the shore",
-    "intro": "Recipes inspired by the lake and its seasons. Local ingredients, attentive hands.",
-    "categories": {
-      "drinks": "Drinks of the Lake",
-      "appetizers": "Land Appetizers",
-      "mains": "Main Courses"
-    },
-    "items": {
-      "d1": { "n": "Lake Breeze", "d": "Gin, lemongrass, wild honey, dry tonic." },
-      "d2": { "n": "Sundown", "d": "Mezcal, fresh passionfruit, pink pepper." },
-      "d3": { "n": "Reflection", "d": "Aged cachaça, mint, jabuticaba reduction." },
-      "a1": { "n": "Caiçara Board", "d": "Cured cheeses, artisan charcuterie, rustic bread." },
-      "a2": { "n": "Pine Nut Pastels", "d": "Crisp dough filled with pine nuts and mountain cheese." },
-      "a3": { "n": "Tilapia Croquettes", "d": "Lake tilapia, fresh herbs, smoked aioli." },
-      "m1": { "n": "Fisherman's Fillet", "d": "Grilled tilapia, parsnip purée, capers." },
-      "m2": { "n": "Embers Short Rib", "d": "Twelve hours over low fire, creamy polenta, salsa verde." },
-      "m3": { "n": "Mushroom Risotto", "d": "Funghi, aged parmesan, red wine reduction." }
-    }
+  "gallery": {
+    "eyebrow": "Come in",
+    "title": "A glimpse of the atmosphere"
   },
   "contact": {
     "eyebrow": "Visit us",
-    "title": "Find us on the deck",
+    "title": "Find us at Barigui Park - CWB",
     "address": "Address",
-    "addressLine": "142 Shore Road — Serene Lake",
+    "addressLine": "Av. Cândido Hartmann - Santo Inácio, Barigui Park, Curitiba-PR",
     "phone": "Phone",
     "email": "Email",
     "hours": "Hours",
     "hoursLine": "Tue–Sun · 5pm to midnight",
     "social": "Social"
   },
-  "footer": { "rights": "All rights reserved." }
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "menu": {
+    "eyebrow": "Menu",
+    "title": "Flavors of the Shore",
+    "intro": "Recipes inspired by the lake and its seasons. Fresh ingredients, made to order.",
+    "cats": {
+      "cervejas": "Beers",
+      "chopp": "Craft Draft Beer",
+      "bebidas": "Drinks & Juices",
+      "drinks": "Cocktails & Shots",
+      "petiscos": "Snacks",
+      "pratos": "Salads & Mains",
+      "sanduiches": "Sandwiches"
+    },
+    "catOrder": [
+      "cervejas",
+      "chopp",
+      "bebidas",
+      "drinks",
+      "petiscos",
+      "pratos",
+      "sanduiches"
+    ],
+    "catItems": {
+      "cervejas": [
+        "c_budweiser_600",
+        "c_eisenbahn_600",
+        "c_heineken_600",
+        "c_brahma_600",
+        "c_serramalte_600",
+        "c_original_600",
+        "c_spaten_600",
+        "c_stella_600",
+        "c_amstel_600",
+        "c_heineken_ln",
+        "c_malzbier",
+        "c_heineken_zero",
+        "c_budweiser_ln",
+        "c_sol",
+        "c_spaten_ln",
+        "c_eisenbahn_ln",
+        "c_stella_ln",
+        "c_corona",
+        "c_corona_cero",
+        "c_stella_gold"
+      ],
+      "chopp": [
+        "ch_bardolago",
+        "ch_brahma",
+        "ch_weiss",
+        "ch_stout",
+        "ch_ipa",
+        "ch_vinho",
+        "ch_roseta"
+      ],
+      "bebidas": [
+        "b_cocacola",
+        "b_guarana",
+        "b_fanta",
+        "b_sprite",
+        "b_schweppes",
+        "b_sprite_limao",
+        "b_fuze",
+        "b_gatorade",
+        "b_agua",
+        "b_agua_gas",
+        "b_suco_natural",
+        "b_suco_leite",
+        "b_delvalle",
+        "b_agua_coco",
+        "b_chocomilk",
+        "b_redbull",
+        "b_smirnoff_ice",
+        "b_cafe_filtrado",
+        "b_cafe_leite",
+        "b_expresso",
+        "b_cappuccino",
+        "b_capsulas"
+      ],
+      "drinks": [
+        "d_caipirinha",
+        "d_quentao",
+        "d_vodka_smirnoff",
+        "d_vodka_absolut",
+        "d_cachaca_ypioca",
+        "d_cachaca_salinas",
+        "d_cachaca_boaz",
+        "d_cachaca_seleta",
+        "d_steinhaeger",
+        "d_bacardi",
+        "d_jager",
+        "d_campari",
+        "d_martini",
+        "d_tequila",
+        "d_amarula",
+        "d_conhaque",
+        "d_underberg",
+        "d_jw_red",
+        "d_jw_black",
+        "d_jack",
+        "d_gin"
+      ],
+      "petiscos": [
+        "p_batata",
+        "p_frango",
+        "p_tilapia_milanesa",
+        "p_polenta",
+        "p_mandioca_bacon",
+        "p_mignon_aceb",
+        "p_frios",
+        "p_mignon_gorg",
+        "p_contra_file",
+        "p_onion_rings",
+        "p_quibe",
+        "p_bolinho_queijo",
+        "p_bolinho_mand",
+        "p_crispy_gouda",
+        "p_smiles_kids",
+        "p_bolinho_camarao",
+        "p_bolinho_bacal",
+        "p_camarao_milan",
+        "p_dadinho",
+        "p_bolinho_carne",
+        "p_bolinho_aipim",
+        "p_churros"
+      ],
+      "pratos": [
+        "pr_saladinha",
+        "pr_folhas",
+        "pr_caesars",
+        "pr_mignon_salad",
+        "pr_frango_manj",
+        "pr_bife_chorizo",
+        "pr_linguado",
+        "pr_lasanha_bolo",
+        "pr_lasanha_sugo",
+        "pr_panq_bolo",
+        "pr_panq_ricota",
+        "pr_panq_frango",
+        "pr_moqueca"
+      ],
+      "sanduiches": [
+        "s_costela",
+        "s_cheese_burguer",
+        "s_cheese_salada",
+        "s_cheese_bacon",
+        "s_cheese_frango",
+        "s_cheddar_burguer",
+        "s_gorgonzola",
+        "s_pao_bolinho",
+        "s_cheese_mignon",
+        "s_misto_quente",
+        "s_bauru"
+      ]
+    },
+    "items": {
+      "c_budweiser_600": {
+        "n": "Budweiser 600ml",
+        "p": "R$ 16,00"
+      },
+      "c_eisenbahn_600": {
+        "n": "Eisenbahn 600ml",
+        "p": "R$ 16,00"
+      },
+      "c_heineken_600": {
+        "n": "Heineken 600ml",
+        "p": "R$ 22,00"
+      },
+      "c_brahma_600": {
+        "n": "Brahma Chopp 600ml",
+        "p": "R$ 16,00"
+      },
+      "c_serramalte_600": {
+        "n": "Serra Malte 600ml",
+        "p": "R$ 18,00"
+      },
+      "c_original_600": {
+        "n": "Original 600ml",
+        "p": "R$ 18,00"
+      },
+      "c_spaten_600": {
+        "n": "Spaten 600ml",
+        "p": "R$ 18,00"
+      },
+      "c_stella_600": {
+        "n": "Stella Artois 600ml",
+        "p": "R$ 18,00"
+      },
+      "c_amstel_600": {
+        "n": "Amstel 600ml",
+        "p": "R$ 16,00"
+      },
+      "c_heineken_ln": {
+        "n": "Heineken Long Neck",
+        "p": "R$ 13,00"
+      },
+      "c_malzbier": {
+        "n": "Malzbier Brahma",
+        "p": "R$ 12,50"
+      },
+      "c_heineken_zero": {
+        "n": "Heineken Zero",
+        "p": "R$ 13,00"
+      },
+      "c_budweiser_ln": {
+        "n": "Budweiser Long Neck",
+        "p": "R$ 12,50"
+      },
+      "c_sol": {
+        "n": "Sol Mexicana",
+        "p": "R$ 12,50"
+      },
+      "c_spaten_ln": {
+        "n": "Spaten Long Neck",
+        "p": "R$ 12,50"
+      },
+      "c_eisenbahn_ln": {
+        "n": "Eisenbahn Long Neck",
+        "p": "R$ 12,50"
+      },
+      "c_stella_ln": {
+        "n": "Stella Artois Long Neck",
+        "p": "R$ 12,50"
+      },
+      "c_corona": {
+        "n": "Corona",
+        "p": "R$ 13,00"
+      },
+      "c_corona_cero": {
+        "n": "Corona Cero",
+        "p": "R$ 13,00"
+      },
+      "c_stella_gold": {
+        "n": "Stella Pure Gold",
+        "p": "R$ 12,50"
+      },
+      "ch_bardolago": {
+        "n": "Bar do Lago",
+        "p": "R$ 16,00"
+      },
+      "ch_brahma": {
+        "n": "Brahma Draft",
+        "p": "R$ 17,50"
+      },
+      "ch_weiss": {
+        "n": "Weiss",
+        "p": "R$ 17,00"
+      },
+      "ch_stout": {
+        "n": "Hazelnut Stout",
+        "p": "R$ 17,00"
+      },
+      "ch_ipa": {
+        "n": "IPA",
+        "p": "R$ 18,00"
+      },
+      "ch_vinho": {
+        "n": "Wine Draft",
+        "p": "R$ 17,00"
+      },
+      "ch_roseta": {
+        "n": "Roseta",
+        "p": "R$ 3,00"
+      },
+      "b_cocacola": {
+        "n": "Coca-Cola / Zero",
+        "p": "R$ 8,50"
+      },
+      "b_guarana": {
+        "n": "Guaraná Antarctica / Zero",
+        "p": "R$ 8,50"
+      },
+      "b_fanta": {
+        "n": "Fanta Orange / Grape",
+        "p": "R$ 8,50"
+      },
+      "b_sprite": {
+        "n": "Sprite",
+        "p": "R$ 8,50"
+      },
+      "b_schweppes": {
+        "n": "Schweppes Citrus / Zero / Tonic",
+        "p": "R$ 8,50"
+      },
+      "b_sprite_limao": {
+        "n": "Sprite Fresh Lime",
+        "p": "R$ 8,50"
+      },
+      "b_fuze": {
+        "n": "Fuze Tea Lemon / Peach",
+        "p": "R$ 8,50"
+      },
+      "b_gatorade": {
+        "n": "Gatorade Lime / Tangerine / Grape",
+        "p": "R$ 10,50"
+      },
+      "b_agua": {
+        "n": "Still Water 500ml",
+        "p": "R$ 6,00"
+      },
+      "b_agua_gas": {
+        "n": "Sparkling Water 500ml",
+        "p": "R$ 6,50"
+      },
+      "b_suco_natural": {
+        "n": "Fresh Juice",
+        "p": "R$ 14,00",
+        "d": "Orange · Strawberry · Pineapple · Acerola · Green Coconut · Passionfruit · Mango · Pineapple Mint"
+      },
+      "b_suco_leite": {
+        "n": "Milk Juice",
+        "p": "R$ 15,90",
+        "d": "Same flavors as fresh juice"
+      },
+      "b_delvalle": {
+        "n": "Del Valle",
+        "p": "R$ 8,90",
+        "d": "Peach · Mango · Grape"
+      },
+      "b_agua_coco": {
+        "n": "Natural Coconut Water 400ml",
+        "p": "R$ 14,00"
+      },
+      "b_chocomilk": {
+        "n": "Choco Milk",
+        "p": "R$ 6,00"
+      },
+      "b_redbull": {
+        "n": "Red Bull",
+        "p": "R$ 15,50"
+      },
+      "b_smirnoff_ice": {
+        "n": "Smirnoff Ice",
+        "p": "R$ 15,00"
+      },
+      "b_cafe_filtrado": {
+        "n": "Filter Coffee",
+        "p": "R$ 5,50"
+      },
+      "b_cafe_leite": {
+        "n": "Coffee with Milk",
+        "p": "R$ 6,00"
+      },
+      "b_expresso": {
+        "n": "Espresso",
+        "p": "R$ 6,00"
+      },
+      "b_cappuccino": {
+        "n": "Cappuccino",
+        "p": "R$ 6,00"
+      },
+      "b_capsulas": {
+        "n": "Três Corações Capsule Coffee",
+        "p": "R$ 8,50"
+      },
+      "d_caipirinha": {
+        "n": "Caipirinhas / Sakerinhas",
+        "p": "R$ 33,90",
+        "d": "Lime · Strawberry · Passionfruit · Smirnoff · Bacardi · Steinhaeger · 51"
+      },
+      "d_quentao": {
+        "n": "Quentão (Hot Spiced Cachaça)",
+        "p": "R$ 14,50"
+      },
+      "d_vodka_smirnoff": {
+        "n": "Smirnoff Vodka",
+        "p": "R$ 18,00"
+      },
+      "d_vodka_absolut": {
+        "n": "Absolut Vodka",
+        "p": "R$ 27,00",
+        "d": "Original / Vanilla"
+      },
+      "d_cachaca_ypioca": {
+        "n": "Cachaça Ypióca",
+        "p": "R$ 13,00"
+      },
+      "d_cachaca_salinas": {
+        "n": "Cachaça Salinas",
+        "p": "R$ 18,00"
+      },
+      "d_cachaca_boaz": {
+        "n": "Cachaça Boazinha",
+        "p": "R$ 18,00"
+      },
+      "d_cachaca_seleta": {
+        "n": "Cachaça Seleta",
+        "p": "R$ 18,00"
+      },
+      "d_steinhaeger": {
+        "n": "Steinhaeger",
+        "p": "R$ 18,00"
+      },
+      "d_bacardi": {
+        "n": "Bacardi",
+        "p": "R$ 18,00",
+        "d": "White · Gold · Lemon · Big Apple"
+      },
+      "d_jager": {
+        "n": "Jägermeister",
+        "p": "R$ 26,00"
+      },
+      "d_campari": {
+        "n": "Campari",
+        "p": "R$ 15,00"
+      },
+      "d_martini": {
+        "n": "Martini",
+        "p": "R$ 18,00"
+      },
+      "d_tequila": {
+        "n": "José Cuervo Tequila",
+        "p": "R$ 26,00",
+        "d": "Gold / Silver"
+      },
+      "d_amarula": {
+        "n": "Amarula",
+        "p": "R$ 25,00"
+      },
+      "d_conhaque": {
+        "n": "Domecq Brandy",
+        "p": "R$ 18,00"
+      },
+      "d_underberg": {
+        "n": "Underberg",
+        "p": "R$ 15,00"
+      },
+      "d_jw_red": {
+        "n": "Johnnie Walker Red",
+        "p": "R$ 28,00"
+      },
+      "d_jw_black": {
+        "n": "Johnnie Walker Black",
+        "p": "R$ 34,00"
+      },
+      "d_jack": {
+        "n": "Jack Daniel's",
+        "p": "R$ 34,00"
+      },
+      "d_gin": {
+        "n": "Gordon's Gin",
+        "p": "R$ 25,00"
+      },
+      "p_batata": {
+        "n": "French Fries with Herbs",
+        "p": "R$ 35,00"
+      },
+      "p_frango": {
+        "n": "Fried Chicken with Sage",
+        "p": "R$ 49,90"
+      },
+      "p_tilapia_milanesa": {
+        "n": "Breaded Tilapia Fillet",
+        "p": "R$ 62,50"
+      },
+      "p_polenta": {
+        "n": "Fried Polenta with Cheese",
+        "p": "R$ 39,00"
+      },
+      "p_mandioca_bacon": {
+        "n": "Fried Cassava with Bacon",
+        "p": "R$ 43,00"
+      },
+      "p_mignon_aceb": {
+        "n": "Mignon with Caramelized Onions",
+        "p": "R$ 94,90"
+      },
+      "p_frios": {
+        "n": "Cold Cuts Board",
+        "p": "R$ 49,90",
+        "d": "Italian salami, cheese, provolone, green olives, cucumber"
+      },
+      "p_mignon_gorg": {
+        "n": "Mignon with Gorgonzola Sauce",
+        "p": "R$ 94,90",
+        "d": "Gorgonzola demi-glacé sauce"
+      },
+      "p_contra_file": {
+        "n": "Sirloin Strips",
+        "p": "R$ 94,90",
+        "d": "Chimichurri sauce"
+      },
+      "p_onion_rings": {
+        "n": "Onion Rings",
+        "p": "R$ 38,90",
+        "d": "Crispy onion rings"
+      },
+      "p_quibe": {
+        "n": "Mini Cheese-filled Kibbeh",
+        "p": "R$ 46,90"
+      },
+      "p_bolinho_queijo": {
+        "n": "Parmesan Cheese Balls",
+        "p": "R$ 49,90"
+      },
+      "p_bolinho_mand": {
+        "n": "Cassava Balls with Dried Beef",
+        "p": "R$ 46,90"
+      },
+      "p_crispy_gouda": {
+        "n": "Crispy Gouda Cheese",
+        "p": "R$ 46,90"
+      },
+      "p_smiles_kids": {
+        "n": "Smiles Kids",
+        "p": "R$ 28,90",
+        "d": "Smiley face fries"
+      },
+      "p_bolinho_camarao": {
+        "n": "Cassava Balls with Shrimp",
+        "p": "R$ 54,90"
+      },
+      "p_bolinho_bacal": {
+        "n": "Salt Cod Fritters",
+        "p": "R$ 58,90"
+      },
+      "p_camarao_milan": {
+        "n": "Breaded Shrimp",
+        "p": "R$ 94,90"
+      },
+      "p_dadinho": {
+        "n": "Tapioca Cubes",
+        "p": "R$ 41,90"
+      },
+      "p_bolinho_carne": {
+        "n": "Beef & Bacon Balls",
+        "p": "R$ 46,90"
+      },
+      "p_bolinho_aipim": {
+        "n": "Cassava Balls with Blumenau Sausage",
+        "p": "R$ 46,90"
+      },
+      "p_churros": {
+        "n": "Mini Churros with Dulce de Leche",
+        "p": "R$ 40,90"
+      },
+      "pr_saladinha": {
+        "n": "Starter Salad",
+        "p": "R$ 27,90",
+        "d": "Iceberg lettuce, arugula, tomato and red onion"
+      },
+      "pr_folhas": {
+        "n": "Leaves & Fruits",
+        "p": "R$ 34,90",
+        "d": "Mixed greens, cherry tomato, mango and sliced strawberries"
+      },
+      "pr_caesars": {
+        "n": "Caesar's",
+        "p": "R$ 35,90",
+        "d": "Iceberg lettuce, croutons, shaved parmesan, chicken strips, caesar dressing"
+      },
+      "pr_mignon_salad": {
+        "n": "Mignon Salad",
+        "p": "R$ 39,90",
+        "d": "Iceberg lettuce, croutons, shaved parmesan, mignon cubes, caesar dressing"
+      },
+      "pr_frango_manj": {
+        "n": "Grilled Chicken with Basil Sauce",
+        "p": "R$ 39,90",
+        "d": "Rice, fries or salad"
+      },
+      "pr_bife_chorizo": {
+        "n": "Chorizo Steak with Chimichurri",
+        "p": "R$ 54,90",
+        "d": "Rice, fries or salad"
+      },
+      "pr_linguado": {
+        "n": "Breaded Sole with Shrimp Sauce",
+        "p": "R$ 58,90",
+        "d": "Rice, fries or salad"
+      },
+      "pr_lasanha_bolo": {
+        "n": "Bolognese Lasagna",
+        "p": "R$ 45,90"
+      },
+      "pr_lasanha_sugo": {
+        "n": "Lasagna with Tomato Sauce",
+        "p": "R$ 45,90"
+      },
+      "pr_panq_bolo": {
+        "n": "Bolognese Crepe",
+        "p": "R$ 45,90",
+        "d": "Rice, fries or salad"
+      },
+      "pr_panq_ricota": {
+        "n": "Ricotta & Spinach Crepe with White Sauce",
+        "p": "R$ 45,90",
+        "d": "Rice, fries or salad"
+      },
+      "pr_panq_frango": {
+        "n": "Chicken Crepe with Tomato Sauce",
+        "p": "R$ 45,90",
+        "d": "Rice, fries or salad"
+      },
+      "pr_moqueca": {
+        "n": "Tilapia Moqueca",
+        "p": "R$ 58,90",
+        "d": "Rice, fries or salad"
+      },
+      "s_costela": {
+        "n": "Short Rib Burger",
+        "p": "R$ 31,90",
+        "d": "Bun, short rib patty, cheese, tomato, lettuce, arugula, red onion, mayo"
+      },
+      "s_cheese_burguer": {
+        "n": "Cheeseburger",
+        "p": "R$ 23,50",
+        "d": "Bun, beef patty, cheese, mayo"
+      },
+      "s_cheese_salada": {
+        "n": "Cheese & Salad Burger",
+        "p": "R$ 29,90",
+        "d": "Bun, beef patty, cheese, lettuce, tomato, mayo"
+      },
+      "s_cheese_bacon": {
+        "n": "Cheese Bacon Burger",
+        "p": "R$ 31,00",
+        "d": "Bun, beef patty, bacon, cheese, lettuce, tomato, mayo"
+      },
+      "s_cheese_frango": {
+        "n": "Chicken Cheese Burger",
+        "p": "R$ 31,00",
+        "d": "Bun, grilled chicken, cheese, lettuce, tomato, mayo"
+      },
+      "s_cheddar_burguer": {
+        "n": "Cheddar Burger",
+        "p": "R$ 31,00",
+        "d": "Bun, beef patty, cheddar, caramelized onion, lettuce, tomato, mayo"
+      },
+      "s_gorgonzola": {
+        "n": "Gorgonzola Burger",
+        "p": "R$ 31,00",
+        "d": "Bun, beef patty, gorgonzola spread, lettuce, tomato, mayo"
+      },
+      "s_pao_bolinho": {
+        "n": "Bun with Croquette",
+        "p": "R$ 29,90",
+        "d": "Bun, croquette, provolone cheese, special mayo"
+      },
+      "s_cheese_mignon": {
+        "n": "Mignon Cheese Sandwich",
+        "p": "R$ 36,90",
+        "d": "Bun, mignon cubes, cheese, lettuce, tomato, mayo"
+      },
+      "s_misto_quente": {
+        "n": "Grilled Ham & Cheese",
+        "p": "R$ 13,50",
+        "d": "French bread, cheese, ham, mayo"
+      },
+      "s_bauru": {
+        "n": "Bauru Sandwich",
+        "p": "R$ 15,50",
+        "d": "French bread, cheese, ham, tomato, mayo, oregano"
+      }
+    },
+    "notes": {
+      "sanduiches": "Add-ons: Bacon R$8 · Egg R$4 · Beef Patty R$15 · Cheddar R$6 · Arugula R$3 · Gorgonzola Spread R$5 · Caramelized Onion R$3.50 · Garlic R$8 · Grated Cheese R$6 · Tartar / Caesar's / Rosé / Barbecue Sauce R$3.50 · Bread Basket R$3.50",
+      "pratos": "½ portion = 70% of the price. All dishes are made fresh to order — wait times may vary."
+    },
+    "disclaimer": "All images are for illustrative purposes only. We do not mix flavors. Corkage fee: R$ 50.00. Wines: see wine list."
+  }
 }

@@ -15,8 +15,7 @@ export function Footer() {
           <span>© {new Date().getFullYear()} Bar do Lago. {t('footer.rights')}</span>
           <span>{t('footer.credit')}</span>
           <div className={styles.socials}>
-            <a href="#" aria-label="Instagram">Instagram</a>
-            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="https://www.instagram.com/bardolago___/" aria-label="Instagram">Instagram</a>
           </div>
         </div>
       </div>
