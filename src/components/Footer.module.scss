@@ -1,49 +1,194 @@
 @use '../styles/variables' as *;
 
+.accentBar {
+  height: 4px;
+  background: linear-gradient(90deg, $color-moss 0%, $accent 50%, $color-terracotta-soft 100%);
+}
+
 .footer {
   background: $color-moss-deep;
   color: rgba($color-cream-soft, .85);
-  padding: 3rem 0 2rem;
-  margin-top: 4rem;
 }
-.inner {
-  @include container;
+
+.body {
+  padding: 4rem 0 3rem;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+
+  @media (min-width: $bp-md) {
+    grid-template-columns: 1.4fr 1.6fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Brand */
+.brand {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  align-items: center;
-  text-align: center;
+  gap: .5rem;
+
+  img {
+    filter: invert(1) brightness(1.15);
+    opacity: .9;
+  }
 }
-.brand {
+
+.brandName {
+  font-family: $font-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: $color-cream-soft;
+  margin: .4rem 0 0;
+  letter-spacing: .02em;
+  line-height: 1;
+}
+
+.tagline {
+  font-size: .75rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: $accent-soft;
+  margin: 0 0 .5rem;
+}
+
+.socials {
+  display: flex;
+  gap: .75rem;
+}
+
+.socialLink {
   display: inline-flex;
   align-items: center;
-  gap: .6rem;
-  font-family: $font-serif;
-  font-size: 1.1rem;
-  img { filter: invert(1) brightness(1.1); opacity: .85; }
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid rgba($color-cream-soft, .2);
+  color: rgba($color-cream-soft, .7);
+  transition: border-color .25s ease, color .25s ease, transform .25s ease, background .25s ease;
+
+  &:hover {
+    border-color: $accent-soft;
+    color: $accent-soft;
+    background: rgba($accent, .1);
+    transform: translateY(-2px);
+  }
 }
-.meta {
+
+/* Info */
+.info {
   display: flex;
   flex-direction: column;
-  gap: .75rem;
-  font-size: .8rem;
-  letter-spacing: .05em;
-  opacity: .8;
+  gap: 1rem;
+  padding-top: .25rem;
+}
+
+.infoItem {
+  display: flex;
+  align-items: flex-start;
+  gap: .65rem;
+  font-size: .88rem;
+  line-height: 1.55;
+  color: rgba($color-cream-soft, .75);
+
+  svg {
+    flex-shrink: 0;
+    margin-top: .18em;
+    color: $accent-soft;
+  }
+}
+
+.infoLink {
+  color: rgba($color-cream-soft, .75);
+  transition: color .2s ease;
+
+  &:hover { color: $accent-soft; }
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: .85rem;
+  padding-top: .25rem;
+
+  a {
+    font-size: .78rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgba($color-cream-soft, .6);
+    transition: color .2s ease;
+    width: fit-content;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 0;
+      height: 1px;
+      background: $accent-soft;
+      transition: width .25s ease;
+    }
+
+    &:hover {
+      color: $color-cream-soft;
+      &::after { width: 100%; }
+    }
+  }
+}
+
+.reserveBtn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: .5rem;
+  padding: .6rem 1.2rem;
+  border-radius: 999px;
+  border: 1.5px solid rgba($accent, .6);
+  color: $accent-soft;
+  letter-spacing: .15em;
+  font-size: .72rem;
+  transition: background .25s ease, border-color .25s ease, color .25s ease, transform .25s ease;
+
+  &::after { display: none; }
+
+  &:hover {
+    background: $accent;
+    border-color: $accent;
+    color: $color-cream-soft;
+    transform: translateY(-1px);
+  }
+}
+
+/* Bottom bar */
+.bottom {
+  border-top: 1px solid rgba($color-cream-soft, .08);
+  padding: 1.25rem 0;
+}
+
+.bottomInner {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  align-items: center;
+  text-align: center;
+  font-size: .75rem;
+  color: rgba($color-cream-soft, .4);
 
   @media (min-width: $bp-md) {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    text-align: left;
   }
 }
-.socials {
-  display: inline-flex;
-  gap: 1.5rem;
-  a {
-    text-transform: uppercase;
-    font-size: .7rem;
-    letter-spacing: .25em;
-    &:hover { color: $accent-soft; }
-  }
+
+.credit {
+  color: rgba($color-cream-soft, .3);
+  font-size: .7rem;
 }
