@@ -45,7 +45,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Bar do Lago — Experience the Lake's Spirit" },
+      { title: "Bar do Lago" },
       { name: "description", content: "Rustic lakeside deck with handcrafted drinks, regional bites and golden sunsets. Reserve your table at Bar do Lago." },
       { property: "og:title", content: "Bar do Lago" },
       { property: "og:description", content: "Rustic lakeside deck — drinks, petiscos and sunsets." },

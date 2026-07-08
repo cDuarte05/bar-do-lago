@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from '@tanstack/react-router';
-import logo from '@/assets/alligator-logo.png';
+import logo from '@/assets/logo.png';
 import styles from './Footer.module.scss';
 
 function IconInstagram() {

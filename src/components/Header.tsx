@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './LanguageSwitcher';
-import logo from '@/assets/alligator-logo.png';
+import logo from '@/assets/logo.png';
 import styles from './Header.module.scss';
 
 export function Header() {
@@ -11,7 +11,6 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
-  // Hero overlay only on home root
   const overHero = pathname === '/' && !scrolled;
 
   useEffect(() => {
