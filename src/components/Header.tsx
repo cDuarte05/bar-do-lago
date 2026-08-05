@@ -44,9 +44,6 @@ export function Header() {
 
         <div className={styles.right}>
           <LanguageSwitcher />
-          <a href="/#contact" className="btn btn--primary">
-            {t('nav.reserve')}
-          </a>
           <button
             className={styles.burger}
             onClick={() => setOpen((o) => !o)}

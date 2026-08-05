@@ -85,7 +85,6 @@ export function Footer() {
             <Link to="/">{t('nav.home')}</Link>
             <Link to="/menu">{t('nav.menu')}</Link>
             <Link to="/contact">{t('nav.contact')}</Link>
-            <Link to="/contact" className={styles.reserveBtn}>{t('nav.reserve')}</Link>
           </nav>
 
         </div>

@@ -144,28 +144,6 @@
   }
 }
 
-.reserveBtn {
-  display: inline-flex;
-  align-items: center;
-  margin-top: .5rem;
-  padding: .6rem 1.2rem;
-  border-radius: 999px;
-  border: 1.5px solid rgba($accent, .6);
-  color: $accent-soft;
-  letter-spacing: .15em;
-  font-size: .72rem;
-  transition: background .25s ease, border-color .25s ease, color .25s ease, transform .25s ease;
-
-  &::after { display: none; }
-
-  &:hover {
-    background: $accent;
-    border-color: $accent;
-    color: $color-cream-soft;
-    transform: translateY(-1px);
-  }
-}
-
 /* Bottom bar */
 .bottom {
   border-top: 1px solid rgba($color-cream-soft, .08);
