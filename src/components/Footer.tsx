@@ -55,7 +55,7 @@ export function Footer() {
             <p className={styles.brandName}>Bar do Lago</p>
             <p className={styles.tagline}>Parque Barigui · Curitiba</p>
             <div className={styles.socials}>
-              <a href="https://instagram.com/bardolago" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className={styles.socialLink}>
+              <a href="https://instagram.com/bardolago___" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className={styles.socialLink}>
                 <IconInstagram />
               </a>
               <a href="https://facebook.com/bardolago" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className={styles.socialLink}>

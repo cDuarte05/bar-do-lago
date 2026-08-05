@@ -2,7 +2,7 @@
   "nav": {
     "home": "Inicio",
     "menu": "Menú",
-    "contact": "Contacto",
+    "contact": "Nuestra Ubicación",
     "reserve": "Reservar Mesa"
   },
   "hero": {
@@ -27,9 +27,8 @@
     "address": "Dirección",
     "addressLine": "Av. Cândido Hartmann - Santo Inácio, Parque Barigui, Curitiba-PR",
     "phone": "Teléfono",
-    "email": "Correo",
     "hours": "Horario",
-    "hoursLine": "Mar–Dom · 17h a 00h",
+    "hoursLine": "Abierto todos los días de 11:00 a 19:00. Tenga en cuenta que podemos cerrar dependiendo de las condiciones climáticas.",
     "social": "Redes"
   },
   "footer": {

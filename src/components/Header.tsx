@@ -37,16 +37,16 @@ export function Header() {
           <Link to="/menu" activeProps={{ className: styles.active }}>
             {t('nav.menu')}
           </Link>
-          <Link to="/contact" activeProps={{ className: styles.active }}>
+          <a href="/#contact">
             {t('nav.contact')}
-          </Link>
+          </a>
         </nav>
 
         <div className={styles.right}>
           <LanguageSwitcher />
-          <Link to="/contact" className="btn btn--primary">
+          <a href="/#contact" className="btn btn--primary">
             {t('nav.reserve')}
-          </Link>
+          </a>
           <button
             className={styles.burger}
             onClick={() => setOpen((o) => !o)}

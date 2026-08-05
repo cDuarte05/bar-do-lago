@@ -19,9 +19,9 @@ export function HomeSections() {
           <span className={styles.heroEyebrow}>{t('hero.eyebrow')}</span>
           <h1>{t('hero.title')}</h1>
           <p>{t('hero.subtitle')}</p>
-          <Link to="/contact" className="btn btn--primary">
+          <a href="/#contact" className="btn btn--primary">
             {t('nav.reserve')}
-          </Link>
+          </a>
         </div>
         <a href="#story" className={styles.scroll} aria-label={t('hero.scroll')}>
           <span>{t('hero.scroll')}</span>
