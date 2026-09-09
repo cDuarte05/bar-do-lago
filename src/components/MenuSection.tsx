@@ -73,15 +73,11 @@ export function MenuSection() {
           <ul className={styles.items}>
             {itemKeys.map((key) => {
               const name  = t(`menu.items.${key}.n`);
-              const price = t(`menu.items.${key}.p`);
               const desc  = t(`menu.items.${key}.d`, { defaultValue: '' });
-              // Extract code prefix from key for display (optional cosmetic)
               return (
                 <li key={key}>
                   <div className={styles.row}>
                     <span className={styles.name}>{name}</span>
-                    <span className={styles.dots} aria-hidden="true" />
-                    <span className={styles.price}>{price}</span>
                   </div>
                   {desc && <p>{desc}</p>}
                 </li>

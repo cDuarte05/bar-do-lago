@@ -124,25 +124,7 @@
   font-family: $font-serif;
   font-size: 1.05rem;
   color: $color-ink;
-  flex: 1;
   min-width: 0;
-}
-
-.price {
-  font-family: $font-serif;
-  font-size: .95rem;
-  color: $accent;
-  white-space: nowrap;
-}
-
-.dots {
-  flex-shrink: 0;
-  width: 3rem;
-  height: 1px;
-  background-image: radial-gradient(circle, rgba($color-ink, .25) 1px, transparent 1.5px);
-  background-size: 6px 6px;
-  background-repeat: repeat-x;
-  background-position: 0 50%;
 }
 
 /* ── Notes ── */

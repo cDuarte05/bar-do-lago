@@ -24,21 +24,35 @@
 .heroOverlay {
   position: absolute; inset: 0;
   background:
-    linear-gradient(180deg, rgba(0,0,0,.45) 0%, rgba(0,0,0,.15) 40%, rgba(0,0,0,.65) 100%);
+    linear-gradient(90deg, rgba(13,11,8,.78) 0%, rgba(13,11,8,.54) 42%, rgba(13,11,8,.18) 82%),
+    linear-gradient(180deg, rgba(0,0,0,.3) 0%, rgba(0,0,0,.08) 42%, rgba(0,0,0,.58) 100%);
   z-index: 1;
 }
 .heroContent {
   position: relative; z-index: 2;
-  max-width: 760px;
+  max-width: 700px;
   animation: rise 1.2s ease-out both;
+  text-shadow: 0 2px 18px rgba(0,0,0,.35);
 
-  h1 { color: $color-cream-soft; margin-bottom: 1rem; }
-  p { color: rgba($color-cream-soft, .85); font-size: 1.1rem; max-width: 540px; margin-bottom: 2rem; }
+  h1 {
+    color: $color-cream-soft;
+    font-size: clamp(2.6rem, 5.5vw, 4.6rem);
+    line-height: 1.02;
+    margin-bottom: 1.25rem;
+  }
+  p {
+    color: rgba($color-cream-soft, .94);
+    font-size: clamp(1rem, 1.5vw, 1.15rem);
+    line-height: 1.65;
+    max-width: 520px;
+    margin-bottom: 2rem;
+  }
 }
 .heroEyebrow {
   @include eyebrow;
-  color: $color-terracotta-soft;
+  color: $color-cream-soft;
   display: inline-block; margin-bottom: 1.25rem;
+  text-shadow: 0 1px 10px rgba(0,0,0,.45);
 }
 @keyframes rise {
   from { opacity: 0; transform: translateY(24px); }
@@ -67,6 +81,22 @@
 @keyframes drop {
   0%, 100% { transform: scaleY(.6); transform-origin: top; }
   50% { transform: scaleY(1); }
+}
+
+@media (max-width: $bp-sm) {
+  .heroOverlay {
+    background:
+      linear-gradient(90deg, rgba(13,11,8,.82) 0%, rgba(13,11,8,.5) 100%),
+      linear-gradient(180deg, rgba(0,0,0,.34) 0%, rgba(0,0,0,.18) 48%, rgba(0,0,0,.62) 100%);
+  }
+
+  .heroContent {
+    max-width: 100%;
+    padding-top: 2rem;
+
+    h1 { max-width: 11ch; }
+    p { max-width: 38ch; }
+  }
 }
 
 /* Story */

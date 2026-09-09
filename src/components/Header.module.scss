@@ -39,11 +39,8 @@
 
   img {
     width: 36px; height: 36px; object-fit: contain;
-    filter: var(--logo-filter, none);
   }
 }
-
-.transparent .brand img { filter: invert(1) brightness(1.2); }
 
 .nav {
   display: none;
