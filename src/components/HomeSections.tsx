@@ -1,5 +1,5 @@
 import heroImg from '@/assets/hero-lake.jpg';
-import storyImg from '@/assets/story.jpg';
+import vistaImg from '@/assets/vista.jpg';
 import drinkImg from '@/assets/gallery-drink.jpg';
 import foodImg from '@/assets/gallery-food.jpg';
 import deckImg from '@/assets/gallery-deck.jpg';
@@ -29,7 +29,7 @@ export function HomeSections() {
       <section className={`section ${styles.story}`} id="story">
         <div className={`container ${styles.storyGrid}`}>
           <div className={styles.storyImage}>
-            <img src={storyImg} alt="" loading="lazy" width={1200} height={1400} />
+            <img src={vistaImg} alt="" loading="lazy" width={1200} height={1400} />
           </div>
           <div className={styles.storyText}>
             <span className="eyebrow">{t('story.eyebrow')}</span>

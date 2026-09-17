@@ -21,7 +21,7 @@ export function ContactSection() {
             <div>
               <dt>{t("contact.phone")}</dt>
               <dd>
-                <a href="tel:+5511999999999">+55 11 99999-9999</a>
+                <a href="tel:+5511999999999">(41) 99748-9559</a>
               </dd>
             </div>
           </dl>

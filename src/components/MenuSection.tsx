@@ -1,18 +1,21 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import drinkImg from '@/assets/gallery-drink.jpg';
+import ChoppImg from '@/assets/gallery-chopp.jpg';
+import JuiceImg from '@/assets/gallery-juice.jpg';
 import foodImg from '@/assets/gallery-food.jpg';
-import deckImg from '@/assets/gallery-deck.jpg';
+import petiscosImg from '@/assets/gallery-petiscos.jpg';
+import deckImg from '@/assets/gallery-dish.jpg';
 import styles from './MenuSection.module.scss';
 
 // Fixed data: category IDs, their display image, and ordered item keys.
 // All human-readable text comes from i18n via t().
 const CAT_IMAGES: Record<string, string> = {
   cervejas: drinkImg,
-  chopp: drinkImg,
-  bebidas: drinkImg,
+  chopp: ChoppImg,
+  bebidas: JuiceImg,
   drinks: drinkImg,
-  petiscos: foodImg,
+  petiscos: petiscosImg,
   pratos: deckImg,
   sanduiches: foodImg,
 };
