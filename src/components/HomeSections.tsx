@@ -1,7 +1,7 @@
 import heroImg from '@/assets/hero-lake.jpg';
 import vistaImg from '@/assets/vista.jpg';
-import drinkImg from '@/assets/gallery-drink.jpg';
-import foodImg from '@/assets/gallery-food.jpg';
+import frente from '@/assets/gallery-frente.jpg';
+import imagemgigante from '@/assets/imagem-gigante.jpg';
 import deckImg from '@/assets/gallery-deck.jpg';
 import { useTranslation } from 'react-i18next';
 import { Link } from '@tanstack/react-router';
@@ -48,8 +48,8 @@ export function HomeSections() {
           </header>
           <div className={styles.galleryGrid}>
             <figure className={styles.tall}><img src={deckImg} alt="" loading="lazy" /></figure>
-            <figure><img src={drinkImg} alt="" loading="lazy" /></figure>
-            <figure><img src={foodImg} alt="" loading="lazy" /></figure>
+            <figure><img src={frente} alt="" loading="lazy" /></figure>
+            <figure><img src={imagemgigante} alt="" loading="lazy" /></figure>
           </div>
         </div>
       </section>
