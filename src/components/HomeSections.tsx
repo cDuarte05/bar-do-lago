@@ -1,11 +1,9 @@
 import heroImg from '@/assets/hero-lake.jpg';
 import vistaImg from '@/assets/vista.jpg';
-import frente from '@/assets/gallery-frente.jpg';
-import imagemgigante from '@/assets/imagem-gigante.jpg';
-import deckImg from '@/assets/gallery-deck.jpg';
 import { useTranslation } from 'react-i18next';
 import { Link } from '@tanstack/react-router';
 import { ContactSection } from './ContactSection';
+import { GalleryFilmstrip } from './GalleryFilmstrip';
 import styles from './HomeSections.module.scss';
 
 export function HomeSections() {
@@ -40,19 +38,7 @@ export function HomeSections() {
         </div>
       </section>
 
-      <section className={`section ${styles.gallery}`}>
-        <div className="container">
-          <header className={styles.galleryHead}>
-            <span className="eyebrow">{t('gallery.eyebrow')}</span>
-            <h2>{t('gallery.title')}</h2>
-          </header>
-          <div className={styles.galleryGrid}>
-            <figure className={styles.tall}><img src={deckImg} alt="" loading="lazy" /></figure>
-            <figure><img src={frente} alt="" loading="lazy" /></figure>
-            <figure><img src={imagemgigante} alt="" loading="lazy" /></figure>
-          </div>
-        </div>
-      </section>
+      <GalleryFilmstrip />
 
       <ContactSection />
     </>
