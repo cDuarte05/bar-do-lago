@@ -74,17 +74,14 @@ export function Footer() {
               <span>{t('contact.hoursLine')}</span>
             </div>
             <div className={styles.infoItem}>
-              <a href="tel:+5541999999999" className={styles.infoLink}>+55 41 99999-9999</a>
-            </div>
-            <div className={styles.infoItem}>
-              <a href="mailto:reservas@bardolago.com" className={styles.infoLink}>reservas@bardolago.com</a>
+              <a href="tel:(41) 99748-9559" className={styles.infoLink}>+55 41 99748-9559</a>
             </div>
           </div>
 
           <nav className={styles.nav} aria-label="Footer navigation">
             <Link to="/">{t('nav.home')}</Link>
             <Link to="/menu">{t('nav.menu')}</Link>
-            <Link to="/contact">{t('nav.contact')}</Link>
+            {/* <Link to="/contact">{t('nav.contact')}</Link> */}
           </nav>
 
         </div>

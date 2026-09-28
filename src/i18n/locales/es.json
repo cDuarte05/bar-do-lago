@@ -7,19 +7,19 @@
   },
   "hero": {
     "eyebrow": "Bar do Lago",
-    "title": "Vive el Espíritu del Lago",
-    "subtitle": "Un deck rústico sobre el agua donde el atardecer se encuentra con bocados artesanales, tragos de autor y buena compañía.",
-    "scroll": "Desliza para descubrir"
+    "title": "Un deck sobre el lago del Parque Barigui",
+    "subtitle": "Vista abierta al agua, chopp bien tirado y petiscos, platos y tragos para pasar toda la noche. Dentro del Parque Barigui, en Curitiba.",
+    "scroll": "Desliza para ver más"
   },
   "story": {
-    "eyebrow": "Nuestra historia",
-    "title": "Acogedor junto al lago",
-    "p1": "Nacido entre tablones gastados y el reflejo dorado del lago, Bar do Lago es un refugio para pausas sinceras. Cada plato lleva el sabor de la tierra; cada trago, la calma del agua.",
-    "p2": "Por más de una década recibimos amigos, viajeros y vecinos como familia — siempre con fuego suave, música baja y vista privilegiada."
+    "eyebrow": "El lugar",
+    "title": "Mesa a la orilla del lago, comida de verdad",
+    "p1": "Bar do Lago está sobre el agua, dentro del Parque Barigui. Desde aquí ves el lago, el parque y la puesta de sol mientras comes. La cocina sirve petiscos, platos ejecutivos, ensaladas y sándwiches, y en la barra hay chopp artesanal, caipirinhas y tragos.",
+    "p2": "Abrimos de martes a domingo, de 17h a medianoche. Llega temprano para ver la puesta de sol."
   },
   "gallery": {
-    "eyebrow": "Entra",
-    "title": "Un vistazo a la atmósfera"
+    "eyebrow": "Visítanos",
+    "title": "La vista desde el deck"
   },
   "contact": {
     "eyebrow": "Visítanos",

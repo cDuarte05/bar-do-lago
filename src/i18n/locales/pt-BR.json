@@ -7,19 +7,19 @@
   },
   "hero": {
     "eyebrow": "Bar do Lago",
-    "title": "Venha conhecer nosso refúgio à beira do lago",
-    "subtitle": "Um restaurante no maior parque urbano de Curitiba, onde a natureza e a gastronomia se encontram para criar momentos inesquecíveis.",
-    "scroll": "Role para descobrir"
+    "title": "Um deck sobre o lago do Parque Barigui",
+    "subtitle": "Vista aberta para a água, chopp bem tirado e petiscos, pratos e drinks para passar a noite toda. Dentro do Parque Barigui, em Curitiba.",
+    "scroll": "Role para ver mais"
   },
   "story": {
-    "eyebrow": "Nossa história",
-    "title": "Aconchego à beira do lago",
-    "p1": "Nascido entre tábuas de madeira e o reflexo dourado do lago, o Bar do Lago é um refúgio para quem busca pausas sinceras. Cada prato carrega o sabor da terra; cada drink, a calma das águas.",
-    "p2": "Há mais de uma década recebendo amigos, viajantes e moradores como família — sempre com fogo brando, música baixa e vista privilegiada."
+    "eyebrow": "O lugar",
+    "title": "Mesa na beira do lago, comida de verdade",
+    "p1": "O Bar do Lago fica sobre a água, dentro do Parque Barigui. Daqui você vê o lago, o parque e o pôr do sol enquanto come. A cozinha serve petiscos, pratos executivos, saladas e sanduíches, e o bar tem chopp artesanal, caipirinhas e drinks.",
+    "p2": "Abrimos de terça a domingo, das 17h à meia-noite. Chegue cedo para pegar o pôr do sol."
   },
   "gallery": {
     "eyebrow": "Visite",
-    "title": "Um pedaço da nossa atmosfera"
+    "title": "A vista do deck"
   },
   "contact": {
     "eyebrow": "Visite-nos",
