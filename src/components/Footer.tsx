@@ -33,8 +33,8 @@ function IconMapPin() {
 export function IconWhatsApp() {
   return (
     <svg
-      width="20"
-      height="20"
+      width="15"
+      height="15"
       viewBox="0 0 24 24"
       fill="currentColor"
       aria-hidden="true"
@@ -84,11 +84,14 @@ export function Footer() {
               <IconMapPin />
               <span>{t('contact.addressLine')}</span>
             </div>
+
             <div className={styles.infoItem}>
               <IconClock />
               <span>{t('contact.hoursLine')}</span>
             </div>
+
             <div className={styles.infoItem}>
+              <IconWhatsApp />
               <a
                 href="https://wa.me/5541997489559"
                 target="_blank"
@@ -96,8 +99,7 @@ export function Footer() {
                 className={styles.infoLink}
                 aria-label="Falar pelo WhatsApp"
               >
-                <IconWhatsApp />
-                <span>+55 41 99748-9559</span>
+                +55 41 99748-9559
               </a>
             </div>
           </div>
